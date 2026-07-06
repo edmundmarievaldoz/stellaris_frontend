@@ -6,7 +6,11 @@
 }
 
 div.layout {
-    background: rgb(230, 215, 175);
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp4221864.jpg&f=1&nofb=1&ipt=b01893cb5db40af221cb700e5ef0d0b4b901849fa6468d7aa195e1e8164321cd');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(10, 10, 15, 0.75);
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
@@ -14,10 +18,6 @@ div.layout {
 
     main{
         padding: 20px;
-        background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp4221864.jpg&f=1&nofb=1&ipt=b01893cb5db40af221cb700e5ef0d0b4b901849fa6468d7aa195e1e8164321cd');
-        background-size: cover;
-        background-position: center;
-        background-blend-mode: overlay;
-        background-color: rgba(10, 10, 15, 0.75);
     }
+
 }

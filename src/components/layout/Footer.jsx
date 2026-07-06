@@ -3,7 +3,7 @@ import './Footer.scss';
 const Footer = () => {
     return (
         <footer>
-          <p>&copy; 2024 My App. All rights reserved.</p>
+          <p>&copy; 2024 Stellaris Dashboard. All rights reserved.</p>
         </footer>
     )
 };
