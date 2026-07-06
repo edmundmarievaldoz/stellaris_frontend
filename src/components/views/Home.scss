@@ -1,0 +1,63 @@
+h1{
+    margin: 20px;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    box-shadow: 0px 0px 15px rgb(196, 4, 4);
+    font-size: 75px;
+    font-family: ''Courier New', Courier, monospace'; 
+    text-shadow: 0 0 15px rgba(208, 19, 19, 0.7); 
+    letter-spacing: 4px;
+
+}
+
+.about{
+    color: whitesmoke;
+
+    .briefing-features{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    .nearObj{
+        height: 50%;
+        width: 50%;
+    }
+
+    .welcome{
+        font-size: 20px;
+    }
+
+    .items {
+        margin: 10px;
+        padding: 5px;
+    }
+
+     .desc{
+            margin: 10px;
+            padding: 10px;
+
+            font-size: 20px;
+        }
+    }
+
+}
