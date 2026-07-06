@@ -1,5 +1,9 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Layout from './components/layout/Layout.jsx';
+import Home from './components/views/Home.jsx';
+import APOD from './components/views/APOD.jsx';
+import Asteroids from './components/views/Asteroids.jsx';
+import GeomagneticStorm from './components/views/GeomagneticStorm.jsx';
 
 
 function App() {
@@ -8,10 +12,10 @@ function App() {
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route path="/" element={<div>Home Page</div>} />
-          <Route path="/apod" element={<div>APOD Page</div>} />
-          <Route path="/asteroids" element={<div>Asteroids Page</div>} />
-          <Route path="/mars" element={<div>Mars Page</div>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/apod" element={<APOD />} />
+          <Route path="/asteroids" element={<Asteroids />} />
+          <Route path="/storm" element={<GeomagneticStorm />} />
         </Routes>
       </Layout>
     </BrowserRouter>

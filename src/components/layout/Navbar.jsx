@@ -17,7 +17,7 @@ const Navbar = () => {
             </div>
 
             <div className="navItem">
-            <NavLink to="/mars">Mars</NavLink>
+            <NavLink to="/storm">Geomagnetic Storm</NavLink>
             </div>
             
         </nav>
