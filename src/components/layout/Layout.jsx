@@ -1,0 +1,22 @@
+import './Layout.scss';
+import Header from './Header.jsx';
+import Navbar from './Navbar.jsx';
+import Footer from './Footer.jsx';
+
+const Layout = ({children}) => {
+    return (
+        <div className="layout">
+            <Header />
+            <Navbar />
+
+            <main>
+                {children}
+            </main>
+
+            <Footer />
+
+        </div>
+    )
+};
+
+export default Layout;
