@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bahnschrift';
+}
+
+div.layout {
+    background: rgb(230, 215, 175);
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr auto;
+
+    main{
+        padding: 20px;
+        background: white;
+    }
+}

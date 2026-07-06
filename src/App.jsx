@@ -1,14 +1,11 @@
 import Layout from './components/views/Layout.jsx';
+import Header from './components/views/Header.jsx';
 
 function App() {
   return (
 
     <Layout>
-
-      <header>
-        <h1>Welcome to My App</h1>
-        <p>Asteroid Radar</p>
-      </header>
+      <Header />
 
         <main>
           <p>This is the main content area.</p>
