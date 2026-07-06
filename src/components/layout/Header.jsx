@@ -3,7 +3,7 @@ import './Header.scss';
 const Header = () => {
     return (
         <header>
-            <h1>Asteroid Radar</h1>
+            <h1>STELLARIS DASHBOARD</h1>
         </header>
 
     )
