@@ -1,7 +1,10 @@
 import './APOD.scss';
+import apiURL from '../API/apiURL.js';
 
 function APOD () {
     // Initialisation -----------------------
+    const apodEndpoint = `${apiURL}/apod`;
+    
     // State --------------------------------
     // Handlers -----------------------------
     // Views --------------------------------
