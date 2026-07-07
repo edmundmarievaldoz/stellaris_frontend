@@ -49,10 +49,9 @@ function Home () {
                     <h1>Deep Space Imaging</h1>
                     <p className='desc'>Daily high-resolution telemetry capturing deep-space phenomena, nebulae, and distant galaxies.</p>
                     <img 
-                        src="https://images.unsplash.com/photo-1543722530-d2c3201371e7?w=500" 
+                        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2Fb%2F5%2Fc%2F598922.jpg&f=1&nofb=1&ipt=f27fa0023018bd80329f0beacc085313ccbeeafda03a21564ad30f375ee927d0" 
                         alt="Deep space galaxy" 
-                        className="newObj" 
-                    />
+                        className='nearObj' />
                     </div>
             </div>
             </div>
