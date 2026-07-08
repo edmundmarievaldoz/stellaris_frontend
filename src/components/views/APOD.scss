@@ -11,6 +11,12 @@
         border-radius: 10px;
         border-color: whitesmoke;
         box-shadow: 0px 0px 15px rgb(196, 4, 4);
+
+        .secure-link-panel{
+            color: #dddddd;
+            display: flex;
+            align-items: center;
+        }
     }
 
     .apod-img{

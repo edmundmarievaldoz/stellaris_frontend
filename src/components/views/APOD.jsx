@@ -22,8 +22,22 @@ function APOD () {
       ) : (
         <div className="apod-container">
 
-          {apod.media_type === 'video' ? (
-            <iframe src={apod.url} title={apod.title} className="apod-video" />
+          {apod.media_type === "video" ? (
+            <div className="video-fallback-container">
+              <iframe src={apod.url} title={apod.title} className="apod-video" />
+              
+              <div className="secure-link-panel">
+                <p>Transmission blocked by origin server protocols?</p>
+                <a 
+                  href={apod.url} 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  className="console-button"
+                >
+                  OPEN EXTERNAL SATELLITE FEED
+                </a>
+              </div>
+            </div>
           ) : (
             <img src={apod.url} alt={apod.title} className="apod-img" />
           )}
